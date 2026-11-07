@@ -1,6 +1,8 @@
 import os
 os.environ["PYDANTIC_AI_NO_BANNER"] = "1"
 import asyncio
+from dotenv import load_dotenv
+load_dotenv()
 
 from datetime import datetime
 
